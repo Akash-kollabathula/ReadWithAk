@@ -24,6 +24,11 @@ export interface SubtopicItem {
   id: string;
   title: string;
   description?: string;
+  details?: string[];
+  codeSnippet?: CodeSnippet;
+  bestPractices?: string[];
+  gotchas?: string[];
+  interviewTip?: string;
 }
 
 export interface LessonModule {

@@ -4,7 +4,7 @@
 
 ## Features
 
-- **In-Depth Curriculum**: 9 core modules covering WebSocket/CDP architecture, BrowserContexts vs Pages, modern user-centric locators, auto-waiting actionability invariants, headless REST `APIRequestContext` testing, Bearer token auth persistence via `storageState`, network mocking with `page.route()`, hybrid UI+API testing, Page Object Model fixtures (`test.extend`), and CI/CD pipelines.
+- **In-Depth Curriculum**: 15 complete modules covering every topic from the core syllabus: WebSocket/CDP architecture, TypeScript/JavaScript basics, modern locators, web interactions, auto-waiting assertions, multi-page contexts, file uploads/downloads, hooks & fixtures, test data design, deep API testing, network mocking with `page.route()`, configuration, framework architecture, Git/Jenkins/CI/CD/Docker, and advanced AI Agents / MCP servers.
 - **Interactive Labs & Visual Concept Simulators**:
   - **Architecture Visualizer**: Compare single persistent WebSocket communication (Playwright) against legacy HTTP REST WebDriver (Selenium).
   - **Actionability Engine Simulator**: Step-through simulation of the 5 checks Playwright performs before clicking (Attached, Visible, Stable, Receives Events, Enabled).
