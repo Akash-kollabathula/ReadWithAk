@@ -1,0 +1,6 @@
+{
+  "name": "ReadWithAK - Playwright & API Automation Guide",
+  "description": "Comprehensive interactive guide to mastering Playwright and API test automation with practical code, concept animations, progress tracking, and interview questions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,265 @@
+﻿1. Playwright Fundamentals
+[ ] What is Playwright?
+[ ] Playwright architecture and how it works
+[ ] Playwright vs Selenium vs Cypress
+[ ] Supported browsers: Chromium, Firefox, WebKit
+[ ] Playwright Test Runner
+[ ] Installation and project setup
+[ ] Playwright CLI commands
+[ ] Understanding package.json and dependencies
+[ ] Running tests in headed and headless mode
+[ ] Browser, BrowserContext and Page
+
+
+2. TypeScript and JavaScript Basics
+[ ] Variables: let, const, var
+[ ] Data types and type annotations
+[ ] Functions and arrow functions
+[ ] Arrays and array methods
+[ ] Strings and string methods
+[ ] Objects and destructuring
+[ ] Loops and conditional statements
+[ ] Promises and async/await
+[ ] Callbacks and error handling
+[ ] Interfaces, types and classes
+[ ] Modules: import and export
+[ ] Map, Set and optional chaining
+
+
+3. Locators and Element Identification
+[ ] getByRole()
+[ ] getByText()
+[ ] getByLabel()
+[ ] getByPlaceholder()
+[ ] getByAltText()
+[ ] getByTitle()
+[ ] getByTestId()
+[ ] locator() with CSS selectors
+[ ] XPath selectors
+[ ] Chaining and filtering locators
+[ ] Locator strictness and ambiguity
+[ ] nth(), first() and last()
+[ ] hasText and has filters
+[ ] Reusable locator methods
+[ ] Handling dynamic elements
+
+
+4. Actions and Web Interactions
+[ ] click() and dblclick()
+[ ] fill() and clear()
+[ ] press() and keyboard actions
+[ ] check() and uncheck()
+[ ] selectOption()
+[ ] hover()
+[ ] dragTo()
+[ ] File upload with setInputFiles()
+[ ] Handling dropdowns and autocomplete
+[ ] Mouse and keyboard operations
+[ ] Editable fields and contenteditable
+[ ] Scrolling and off-screen elements
+[ ] Handling disabled and read-only controls
+
+
+5. Assertions and Waiting
+[ ] expect() and assertion basics
+[ ] toBeVisible() and toBeHidden()
+[ ] toHaveText() and toContainText()
+[ ] toHaveValue()
+[ ] toHaveAttribute()
+[ ] toHaveURL() and toHaveTitle()
+[ ] toHaveCount()
+[ ] Soft assertions
+[ ] Web-first assertions and auto-retry
+[ ] expect.poll()
+[ ] expect.toPass()
+[ ] Timeouts and assertion timeout
+[ ] Auto-waiting vs explicit waiting
+[ ] Why waitForTimeout() should be avoided
+
+
+6. Browser and Page Handling
+[ ] Launching browsers
+[ ] Creating and closing browser contexts
+[ ] Multiple tabs and pages
+[ ] Handling popups and new windows
+[ ] BrowserContext isolation
+[ ] Multiple users in separate contexts
+[ ] Frames and iframes
+[ ] frameLocator()
+[ ] Dialogs: alert, confirm, prompt
+[ ] Authentication with storageState
+[ ] Cookies and localStorage
+[ ] SessionStorage handling
+[ ] Browser permissions
+[ ] Viewport, device emulation and geolocation
+
+
+7. Forms and File Handling
+[ ] Radio buttons and checkboxes
+[ ] Single-select and multi-select dropdowns
+[ ] Date pickers
+[ ] Form validation
+[ ] File upload: single and multiple files
+[ ] File download handling
+[ ] Download path and suggested filename
+[ ] Working with CSV and JSON
+[ ] Reading Excel files
+[ ] Writing test data to files
+[ ] Handling large file uploads
+[ ] Validating uploaded and downloaded files
+
+
+8. Hooks, Fixtures and Test Organization
+[ ] test() and test.describe()
+[ ] beforeAll, beforeEach, afterEach, afterAll
+[ ] Built-in fixtures: page, browser, context, request
+[ ] Custom fixtures
+[ ] Fixture scope: test vs worker
+[ ] Fixture dependencies and composition
+[ ] test.use()
+[ ] test.extend()
+[ ] Page Object Model (POM)
+[ ] Reusable components and page classes
+[ ] Base fixtures and dependency injection
+[ ] Test setup and teardown
+[ ] Global setup and teardown
+[ ] Test annotations: skip, only, fixme, slow
+[ ] Tags and test filtering
+
+
+9. Test Data and Test Design
+[ ] Data-driven testing
+[ ] Loop-based test generation
+[ ] test.describe() with multiple scenarios
+[ ] JSON test data
+[ ] CSV test data
+[ ] Excel test data
+[ ] Environment variables and .env
+[ ] Test data factories and builders
+[ ] Positive and negative testing
+[ ] Boundary-value analysis
+[ ] Equivalence partitioning
+[ ] Independent and repeatable tests
+[ ] Unique data for parallel execution
+[ ] Test cleanup and database state
+
+
+10. API Automation and Testing
+[ ] API testing fundamentals
+[ ] APIRequestContext
+[ ] request.get() and request.post()
+[ ] request.put(), patch() and delete()
+[ ] GET, POST, PUT, PATCH and DELETE semantics
+[ ] Headers, query parameters and path parameters
+[ ] Authentication tokens and API keys
+[ ] Request body and payload validation
+[ ] Status code and response assertions
+[ ] Response JSON validation
+[ ] Response headers and content type
+[ ] API chaining and dependent requests
+[ ] API setup and cleanup
+[ ] APIRequestContext vs page.request
+[ ] API mocking and route interception
+[ ] Schema validation
+[ ] API negative testing
+[ ] Response time checks
+[ ] UI and API combined testing
+
+
+11. Network, Mocking and Advanced UI
+[ ] page.route() and route.fulfill()
+[ ] route.continue() and route.abort()
+[ ] page.on('request')
+[ ] page.on('response')
+[ ] page.on('requestfailed')
+[ ] Mocking API responses
+[ ] Network failures and offline testing
+[ ] Waiting for specific API responses
+[ ] WebSockets basics
+[ ] Console message handling
+[ ] JavaScript errors and pageerror
+[ ] Handling shadow DOM
+[ ] Visual regression testing
+[ ] Screenshots and screenshot comparison
+[ ] Accessibility testing basics
+[ ] Handling dynamic tables and pagination
+
+
+12. Configuration and Reporting
+[ ] playwright.config.ts
+[ ] baseURL and projects
+[ ] Browser-specific projects
+[ ] Retries and workers
+[ ] fullyParallel configuration
+[ ] Test timeout and expect timeout
+[ ] Global timeout
+[ ] Reporter configuration
+[ ] HTML, list, line and JSON reporters
+[ ] Screenshots on failure
+[ ] Video recording
+[ ] Trace Viewer
+[ ] Retries and flaky-test diagnosis
+[ ] Sharding and parallel execution
+[ ] Test annotations and metadata
+[ ] Environment-specific configuration
+
+
+13. Framework Development
+[ ] Standard framework folder structure
+[ ] Page Object Model implementation
+[ ] Page Component Object Model
+[ ] Custom fixtures and base test
+[ ] Reusable utilities and helper functions
+[ ] Centralized locators and test data
+[ ] Environment configuration management
+[ ] Authentication reuse
+[ ] API client wrapper
+[ ] Logging and error handling
+[ ] Custom assertions
+[ ] Test data management
+[ ] Framework design principles
+[ ] SOLID principles applied to automation
+[ ] Reusable test architecture
+[ ] Framework maintainability and scalability
+
+
+14. Git, Jenkins, CI/CD and Docker
+[ ] Git basics: clone, add, commit, push
+[ ] Branches, merge and merge conflicts
+[ ] GitHub pull requests and code reviews
+[ ] GitHub Actions workflow YAML
+[ ] Jenkins pipeline basics
+[ ] Running Playwright in CI
+[ ] Installing browsers in CI
+[ ] Environment secrets and credentials
+[ ] Docker fundamentals
+[ ] Playwright Docker images
+[ ] Linux commands and shell basics
+[ ] Artifacts, reports and trace retention
+[ ] Scheduled and pull-request test runs
+[ ] Parallel CI execution
+[ ] Failure notifications
+[ ] CI debugging and environment differences
+
+
+15. Advanced, Production and Interview Topics
+[ ] Flaky tests: root causes and prevention
+[ ] Debugging with Playwright Inspector
+[ ] Debugging with VS Code
+[ ] Debugging using Trace Viewer
+[ ] Retries vs fixing the root cause
+[ ] Test stability and reliability metrics
+[ ] Cross-browser testing
+[ ] Mobile emulation
+[ ] Accessibility and performance checks
+[ ] Database validation with SQL
+[ ] End-to-end workflow automation
+[ ] Role-based access and multi-user workflows
+[ ] Security considerations in test automation
+[ ] Playwright MCP server
+[ ] Playwright Agents
+[ ] Agent planning, generation and healing
+[ ] AI-assisted test creation and debugging
+[ ] Coding problems in TypeScript
+[ ] Real-time production troubleshooting scenarios
+[ ] Framework architecture and project explanation
